@@ -73,12 +73,23 @@
 }
 
 
-#judul {
+#profile {
     max-width: 90%;
     height: 500px;
 }
 
-body > #judul {
+#judul {
+    margin-top: 80px;
     font-size: 75px;
+    text-align: right;
+}
+#judul > .judul-c {
+    margin-top: -20px;
+}
+
+#description {
+    margin-left: 50%;
+    width: 50%;
+    font-size: 20px;
     text-align: right;
 }
